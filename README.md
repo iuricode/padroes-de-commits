@@ -1,6 +1,6 @@
-<h3 align="center">
-  📄 <br>Padrões de commits 
-</h3>
+<h1 align="center">
+📄<br>Padrões de commits 
+</h1>
 
 <p align="center">
   O <strong>commit</strong> do cógido é uma coisa <strong>muito importante</strong> para nós desenvolvedores, por isso é sempre bom adotarmos <strong>padrões para nossos commits</strong>. Abaixo, iremos apresentar um padrão de commit com título, corpo e emoji.
@@ -29,3 +29,13 @@ git commit -m ":tada: Meu primeiro commit"
 | Testes                     | :rotating_light: `:rotating_light:`           |
 | Adicionando um teste       | :white_check_mark: `:white_check_mark:`       |
 | Teste de aprovação         | :heavy_check_mark: `:heavy_check_mark:`       |
+| Acessibilidade             | :wheelchair: `:wheelchair:`                   |
+| Texto                      | :pencil: `:pencil:`                           |
+| Package.json em JS         | :package: `:package:`                         |
+| Em progresso               | :construction:  `:construction:`              |
+| Arquivos de configuração   | :wrench: `:wrench:`                           |
+| Removendo uma dependência       | :heavy_minus_sign: `:heavy_minus_sign:`       |
+| Adicionando uma dependência     | :heavy_plus_sign: `:heavy_plus_sign:`         |
+| Revertendo mudanças             | :boom: `:boom:`                               |
+| Alterações de revisão de código | :ok_hand: `:ok_hand:`                         |
+| Mover / renomear repositório    | :truck: `:truck:`                             |
