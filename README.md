@@ -76,4 +76,4 @@ git commit -m ":tada: Meu primeiro commit"
 | Alterações de revisão de código | :ok_hand: `:ok_hand:`                         |
 | Mover/Renomear                  | :truck: `:truck:`                             |
 
-<br>[⬆ Voltar ao top](#-padrões-de-commits) <br>
+<br>[⬆ Voltar ao top](#padrões-de-commits-) <br>
