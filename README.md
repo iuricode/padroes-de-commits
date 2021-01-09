@@ -18,11 +18,6 @@
   Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
 </p>
 
-## 🎉 Recomendações
-
-- Recomendamos que na primeira linha deve ter no máximo 4 palavras;
-- Para descrever com detalhes usar a descrição do commit;
-- Usar um emoji no início da mensagem de commit representando sobre o commit;
 
 ## 🦄 Tipo e Descrição
 
@@ -43,6 +38,15 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 - test - Commits do tipo test são utilizados quando são realizadas alterações em testes, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em código)
 
 - chore - Commits do tipo chore indicam atualizações de tarefas de build, configurações de administrador, pacotes... como por exemplo adicionar um pacote no gitignore. (Não inclui alterações em código)
+
+
+## 🎉 Recomendações
+
+- Adicione um título consistente com o título do conteúdo;
+- Recomendamos que na primeira linha deve ter no máximo 4 palavras;
+- Para descrever com detalhes usar a descrição do commit;
+- Usar um emoji no início da mensagem de commit representando sobre o commit;
+- Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e link safiliados;
 
 ## 💻 Exemplo
 ```bash
