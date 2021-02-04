@@ -55,25 +55,87 @@ git commit -m ":tada: Meu primeiro commit"
 
 ## 💈 Padrões de emojis
 
-|   Tipo de commit           | Emojis                                        |
-|:---------------------------|:----------------------------------------------|
-| Commit inicial             | :tada: `:tada:`                               |
-| Tag de versão              | :bookmark: `:bookmark:`                       |
-| Novo recurso               | :sparkles: `:sparkles:`                       |
-| Bugfix                     | :bug: `:bug:`                                 |
-| Documentação               | :books: `:books:`                             |
-| Testes                     | :rotating_light: `:rotating_light:`           |
-| Adicionando um teste       | :white_check_mark: `:white_check_mark:`       |
-| Teste de aprovação         | :heavy_check_mark: `:heavy_check_mark:`       |
-| Acessibilidade             | :wheelchair: `:wheelchair:`                   |
-| Texto                      | :pencil: `:pencil:`                           |
-| Package.json em JS         | :package: `:package:`                         |
-| Em progresso               | :construction:  `:construction:`              |
-| Arquivos de configuração   | :wrench: `:wrench:`                           |
-| Removendo uma dependência       | :heavy_minus_sign: `:heavy_minus_sign:`       |
-| Adicionando uma dependência     | :heavy_plus_sign: `:heavy_plus_sign:`         |
-| Revertendo mudanças             | :boom: `:boom:`                               |
-| Alterações de revisão de código | :ok_hand: `:ok_hand:`                         |
-| Mover/Renomear                  | :truck: `:truck:`                             |
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de commit</th>
+      <th>Emojis</th>
+    </tr>
+  </thead>
+ <tbody>
+    <tr>
+      <td>Commit inicial</td>
+      <td> 🎉 <code>:tada:</code>   </td>
+    </tr>
+    <tr>
+      <td> Tag de versão  </td>
+      <td> 🔖 <code>:bookmark:</code>   </td>
+    </tr>
+    <tr>
+      <td>  Novo recurso   </td>
+      <td> ✨ <code>:sparkles:</code>   </td>
+    </tr>
+    <tr>
+      <td>  Bugfix  </td>
+      <td> 🐛 <code>:bug:</code>   </td>
+    </tr>
+    <tr>
+      <td>  Documentação  </td>
+      <td> 📚 <code>:books:</code>   </td>
+    </tr>
+    <tr>
+      <td>  Testes  </td>
+      <td> 🚨 <code>:rotating_light: </code>   </td>
+    </tr>
+    <tr>
+      <td>Adicionando um teste</td>
+      <td> ✅ <code> :white_check_mark: </code>   </td>
+    </tr>
+    <tr>
+      <td> Teste de aprovação </td>
+      <td> ✔️ <code> :heavy_check_mark: </code>   </td>
+    </tr>
+    <tr>
+      <td>  Acessibilidade    </td>
+      <td> ♿ <code> :wheelchair: </code>   </td>
+    </tr>
+    <tr>
+      <td>  Texto     </td>
+      <td> 📝 <code> :pencil: </code>   </td>
+    </tr>
+    <tr>
+      <td>  Package.json em JS      </td>
+      <td> 📦 <code> :package: </code>   </td>
+    </tr>
+    <tr>
+      <td>  Em progresso        </td>
+      <td> 🚧 <code> :construction: </code>   </td>
+    </tr>
+    <tr>
+      <td>   Arquivos de configuração        </td>
+      <td> 🔧 <code> :wrench: </code>   </td>
+    </tr>
+    <tr>
+      <td>   Removendo uma dependência        </td>
+      <td> ➖ <code> :heavy_minus_sign: </code>   </td>
+    </tr>
+    <tr>
+      <td>   Adicionando uma dependência        </td>
+      <td> ➕ <code> :heavy_plus_sign: </code>   </td>
+    </tr>
+    <tr>
+      <td>   Revertendo mudanças         </td>
+      <td> 💥 <code> :boom: </code>   </td>
+    </tr>
+    <tr>
+      <td>   Alterações de revisão de código        </td>
+      <td> 👌 <code> :ok_hand: </code>   </td>
+    </tr>
+    <tr>
+      <td>   Mover/Renomear        </td>
+      <td> 🚚 <code> :truck: </code>   </td>
+    </tr>
+  </tbody>
+</table>
 
 <br>[⬆ Voltar ao top](#padrões-de-commits-) <br>
