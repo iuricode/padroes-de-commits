@@ -76,6 +76,10 @@ git commit -m ":tada: Meu primeiro commit"
       <td> ✨ <code>:sparkles:</code>   </td>
     </tr>
     <tr>
+      <td>  Lista de ideias (tasks)    </td>
+      <td> 🔜 <code> :soon: </code>   </td>
+    </tr>
+    <tr>
       <td>  Bugfix  </td>
       <td> 🐛 <code>:bug:</code>   </td>
     </tr>
@@ -85,7 +89,7 @@ git commit -m ":tada: Meu primeiro commit"
     </tr>
     <tr>
       <td>  Testes  </td>
-      <td> 🚨 <code>:rotating_light: </code>   </td>
+      <td> 🧪 <code>:test_tube: </code>   </td>
     </tr>
     <tr>
       <td>Adicionando um teste</td>
@@ -131,6 +135,10 @@ git commit -m ":tada: Meu primeiro commit"
       <td>   Alterações de revisão de código        </td>
       <td> 👌 <code> :ok_hand: </code>   </td>
     </tr>
+   <tr>
+      <td>   Refatoração        </td>
+      <td> ♻️ <code> :recycle: </code>   </td>
+   </tr>
     <tr>
       <td>   Mover/Renomear        </td>
       <td> 🚚 <code> :truck: </code>   </td>
