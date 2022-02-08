@@ -146,4 +146,4 @@ git commit -m ":tada: Meu primeiro commit"
   </tbody>
 </table>
 
-<br>[⬆ Voltar ao top](#padrões-de-commits-) <br>
+<br>[⬆ Voltar ao topo](#padrões-de-commits-) <br>
