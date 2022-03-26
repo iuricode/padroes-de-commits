@@ -187,12 +187,36 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td> 🚀 <code> :rocket: </code>   </td>
     </tr>
     <tr>
-      <td>   Segurança        </td>
-      <td> 🔒️ <code> :lock: </code>   </td>
+      <td> Estilização de interface          </td>
+      <td> 💄 <code> :lipstick: </code>   </td>
     </tr>
     <tr>
-      <td>   Segurança        </td>
-      <td> 🔒️ <code> :lock: </code>   </td>
+      <td> Comentários          </td>
+      <td> 💡 <code> :bulb: </code>   </td>
+    </tr>
+    <tr>
+      <td> Responsividade          </td>
+      <td> 📱 <code> :iphone: </code>   </td>
+    </tr>
+    <tr>
+      <td> SEO          </td>
+      <td> 🔍️ <code> :mag: </code>   </td>
+    </tr>
+    <tr>
+      <td>  Tipagem         </td>
+      <td> 🏷️ <code> :label: </code>   </td>
+    </tr>
+    <tr>
+      <td>  Tratamento de erros         </td>
+      <td> 🥅 <code> :goal_net: </code>   </td>
+    </tr>
+    <tr>
+      <td> Animações e transições          </td>
+      <td> 💫 <code> :dizzy: </code>   </td>
+    </tr>
+    <tr>
+      <td> Removendo um arquivo          </td>
+      <td> 🔥 <code> :fire: </code>   </td>
     </tr>
   </tbody>
 </table>
