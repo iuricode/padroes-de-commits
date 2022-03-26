@@ -6,18 +6,11 @@
   <img src="gitcommit.png">
 </h1>
 
-<p>
-  De acordo com a documentação do <strong>Conventional Commits</strong>, Commits Semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define  um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
-</p>
+De acordo com a documentação do **Conventional Commits**, Commits Semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define  um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
 
-<p>
-  Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada quais alterações foram realizadas no trecho de código que foi commitado.
-</p>
+Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada quais alterações foram realizadas no trecho de código que foi commitado.
 
-<p>
-  Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
-</p>
-
+Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
 
 ## 🦄 Tipo e Descrição
 
@@ -43,12 +36,12 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (*continuous integration*).
 
-## 🎉 Recomendações
+## ☑️ Recomendações
 
 - Adicione um título consistente com o título do conteúdo;
 - Recomendamos que na primeira linha deve ter no máximo 4 palavras;
 - Para descrever com detalhes, usar a descrição do commit;
-- Usar um emoji no início da mensagem de commit representando sobre o commit;
+- Usar um emoji no início da mensagem de commit representando sobre o commit (ver [tabela de emojis](#padrões-de-emojis));
 - Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados;
 
 ## 💻 Exemplos
@@ -204,4 +197,4 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
   </tbody>
 </table>
 
-<br>[⬆ Voltar ao top](#padrões-de-commits-) <br>
+<br>[🔝 Voltar ao topo](#padrões-de-commits-) <br>
