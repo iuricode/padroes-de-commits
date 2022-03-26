@@ -51,10 +51,41 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 - Usar um emoji no início da mensagem de commit representando sobre o commit;
 - Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados;
 
-## 💻 Exemplo
-```bash
-git commit -m ":tada: Meu primeiro commit"
-```
+## 💻 Exemplos
+<table>
+  <thead>
+    <tr>
+      <th>Comando git</th>
+      <th>Resultado no GitHub</th>
+    </tr>
+  </thead>
+ <tbody>
+    <tr>
+      <td>
+        <code>git commit -m ":tada: Commit inicial"</code>
+      </td>
+      <td>🎉 Commit inicial</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":books: docs: Atualizaçao do README"</code>
+      </td>
+      <td>📚 docs: Atualizaçao do README</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bug: fix: Loop infinito na linha 50"</code>
+      </td>
+      <td>🐛 fix: Loop infinito na linha 50</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":construction: feat: Pagina de login"</code>
+      </td>
+      <td>🚧 feat: Pagina de login</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 💈 Padrões de emojis
 
