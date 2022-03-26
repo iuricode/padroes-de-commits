@@ -41,46 +41,10 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 - Adicione um título consistente com o título do conteúdo;
 - Recomendamos que na primeira linha deve ter no máximo 4 palavras;
 - Para descrever com detalhes, usar a descrição do commit;
-- Usar um emoji no início da mensagem de commit representando sobre o commit (ver [tabela de emojis](#padroes));
+- Usar um emoji no início da mensagem de commit representando sobre o commit;
 - Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados;
 
-## 💻 Exemplos
-<table>
-  <thead>
-    <tr>
-      <th>Comando git</th>
-      <th>Resultado no GitHub</th>
-    </tr>
-  </thead>
- <tbody>
-    <tr>
-      <td>
-        <code>git commit -m ":tada: Commit inicial"</code>
-      </td>
-      <td>🎉 Commit inicial</td>
-    </tr>
-    <tr>
-      <td>
-        <code>git commit -m ":books: docs: Atualizaçao do README"</code>
-      </td>
-      <td>📚 docs: Atualizaçao do README</td>
-    </tr>
-    <tr>
-      <td>
-        <code>git commit -m ":bug: fix: Loop infinito na linha 50"</code>
-      </td>
-      <td>🐛 fix: Loop infinito na linha 50</td>
-    </tr>
-    <tr>
-      <td>
-        <code>git commit -m ":construction: feat: Pagina de login"</code>
-      </td>
-      <td>🚧 feat: Pagina de login</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id='padroes'>💈 Padrões de emojis</h2>
+## 💈 Padrões de emojis
 
 <table>
   <thead>
@@ -217,6 +181,84 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Tratamento de erros</td>
       <td>🥅 <code>:goal_net:</code></td>
+    </tr>
+  </tbody>
+</table>
+
+## 💻 Exemplos
+<table>
+  <thead>
+    <tr>
+      <th>Comando git</th>
+      <th>Resultado no GitHub</th>
+    </tr>
+  </thead>
+ <tbody>
+    <tr>
+      <td>
+        <code>git commit -m ":tada: Commit inicial"</code>
+      </td>
+      <td>🎉 Commit inicial</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":books: docs: Atualizaçao do README"</code>
+      </td>
+      <td>📚 docs: Atualizaçao do README</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bug: fix: Loop infinito na linha 50"</code>
+      </td>
+      <td>🐛 fix: Loop infinito na linha 50</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":sparkles: feat: Pagina de login"</code>
+      </td>
+      <td>✨ feat: Pagina de login</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bricks: ci: Modificaçao no Dockerfile"</code>
+      </td>
+      <td>🧱 ci: Modificaçao no Dockerfile</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":recycle: refactor: Passando para arrow functions"</code>
+      </td>
+      <td>♻️ refactor: Passando para arrow functions</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":zap: perf: Melhoria no tempo de resposta"</code>
+      </td>
+      <td>⚡ perf: Melhoria no tempo de resposta</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":boom: fix: Revertendo mudanças ineficientes"</code>
+      </td>
+      <td>💥 fix: Revertendo mudanças ineficientes</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":lipstick: feat: Estilizaçao CSS do formulario"</code>
+      </td>
+      <td>💄 feat: Estilizaçao CSS do formulario</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":test_tube: feat: Estilizaçao CSS do formulario"</code>
+      </td>
+      <td>🧪 test: Criando novo teste</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":test_tube: feat: Estilizaçao CSS do formulario"</code>
+      </td>
+      <td>💡 docs: Comentários sobre a função LoremIpsum( )</td>
     </tr>
   </tbody>
 </table>
