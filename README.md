@@ -41,7 +41,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 - Adicione um título consistente com o título do conteúdo;
 - Recomendamos que na primeira linha deve ter no máximo 4 palavras;
 - Para descrever com detalhes, usar a descrição do commit;
-- Usar um emoji no início da mensagem de commit representando sobre o commit (ver [tabela de emojis](#padrões-de-emojis));
+- Usar um emoji no início da mensagem de commit representando sobre o commit (ver [tabela de emojis](#padroes));
 - Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados;
 
 ## 💻 Exemplos
@@ -80,7 +80,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
   </tbody>
 </table>
 
-## 💈 Padrões de emojis
+<h2 id='padroes'>💈 Padrões de emojis</h2>
 
 <table>
   <thead>
@@ -91,132 +91,132 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
   </thead>
  <tbody>
     <tr>
-      <td>Commit inicial</td>
-      <td> 🎉 <code>:tada:</code>   </td>
-    </tr>
-    <tr>
-      <td> Tag de versão  </td>
-      <td> 🔖 <code>:bookmark:</code>   </td>
-    </tr>
-    <tr>
-      <td>  Novo recurso   </td>
-      <td> ✨ <code>:sparkles:</code>   </td>
-    </tr>
-    <tr>
-      <td>  Lista de ideias (tasks)    </td>
-      <td> 🔜 <code> :soon: </code>   </td>
-    </tr>
-    <tr>
-      <td>  Bugfix  </td>
-      <td> 🐛 <code>:bug:</code>   </td>
-    </tr>
-    <tr>
-      <td>  Documentação  </td>
-      <td> 📚 <code>:books:</code>   </td>
-    </tr>
-    <tr>
-      <td>  Testes  </td>
-      <td> 🧪 <code>:test_tube: </code>   </td>
+      <td>Acessibilidade</td>
+      <td>♿ <code>:wheelchair:</code></td>
     </tr>
     <tr>
       <td>Adicionando um teste</td>
-      <td> ✅ <code> :white_check_mark: </code>   </td>
+      <td>✅ <code>:white_check_mark:</code></td>
     </tr>
     <tr>
-      <td> Teste de aprovação </td>
-      <td> ✔️ <code> :heavy_check_mark: </code>   </td>
+      <td>Adicionando uma dependência</td>
+      <td>➕ <code>:heavy_plus_sign:</code></td>
     </tr>
     <tr>
-      <td>  Acessibilidade    </td>
-      <td> ♿ <code> :wheelchair: </code>   </td>
+      <td>Alterações de revisão de código</td>
+      <td>👌 <code>:ok_hand:</code></td>
     </tr>
     <tr>
-      <td>  Texto     </td>
-      <td> 📝 <code> :pencil: </code>   </td>
+      <td>Animações e transições</td>
+      <td>💫 <code>:dizzy:</code></td>
     </tr>
     <tr>
-      <td>  Package.json em JS      </td>
-      <td> 📦 <code> :package: </code>   </td>
+      <td>Bugfix</td>
+      <td>🐛 <code>:bug:</code></td>
     </tr>
     <tr>
-      <td>  Em progresso        </td>
-      <td> 🚧 <code> :construction: </code>   </td>
+      <td>Comentários</td>
+      <td>💡 <code>:bulb:</code></td>
     </tr>
     <tr>
-      <td>   Arquivos de configuração        </td>
-      <td> 🔧 <code> :wrench: </code>   </td>
+      <td>Commit inicial</td>
+      <td>🎉 <code>:tada:</code></td>
     </tr>
     <tr>
-      <td>   Removendo uma dependência        </td>
-      <td> ➖ <code> :heavy_minus_sign: </code>   </td>
+      <td>Configuração</td>
+      <td>🔧 <code>:wrench:</code></td>
     </tr>
     <tr>
-      <td>   Adicionando uma dependência        </td>
-      <td> ➕ <code> :heavy_plus_sign: </code>   </td>
+      <td>Deploy</td>
+      <td>🚀 <code>:rocket:</code></td>
     </tr>
     <tr>
-      <td>   Revertendo mudanças         </td>
-      <td> 💥 <code> :boom: </code>   </td>
+      <td>Documentação</td>
+      <td>📚 <code>:books:</code></td>
     </tr>
     <tr>
-      <td>   Alterações de revisão de código        </td>
-      <td> 👌 <code> :ok_hand: </code>   </td>
+      <td>Em progresso</td>
+      <td>🚧 <code>:construction:</code></td>
     </tr>
     <tr>
-        <td>   Refatoração        </td>
-        <td> ♻️ <code> :recycle: </code>   </td>
+      <td>Estilização de interface</td>
+      <td>💄 <code>:lipstick:</code></td>
     </tr>
     <tr>
-      <td>   Mover/Renomear        </td>
-      <td> 🚚 <code> :truck: </code>   </td>
+      <td>Infraestrutura</td>
+      <td>🧱 <code>:bricks:</code></td>
     </tr>
     <tr>
-      <td>   Performance        </td>
-      <td> ⚡ <code> :zap: </code>   </td>
+      <td>Lista de ideias (tasks)</td>
+      <td>🔜 <code> :soon: </code></td>
     </tr>
     <tr>
-      <td>   Infraestrutura        </td>
-      <td> 🧱 <code> :bricks: </code>   </td>
+      <td>Mover/Renomear</td>
+      <td>🚚 <code>:truck:</code></td>
     </tr>
     <tr>
-      <td>   Segurança        </td>
-      <td> 🔒️ <code> :lock: </code>   </td>
+      <td>Novo recurso</td>
+      <td>✨ <code>:sparkles:</code></td>
     </tr>
     <tr>
-      <td>   Deploy        </td>
-      <td> 🚀 <code> :rocket: </code>   </td>
+      <td>Package.json em JS</td>
+      <td>📦 <code>:package:</code></td>
     </tr>
     <tr>
-      <td> Estilização de interface          </td>
-      <td> 💄 <code> :lipstick: </code>   </td>
+      <td>Performance</td>
+      <td>⚡ <code>:zap:</code></td>
     </tr>
     <tr>
-      <td> Comentários          </td>
-      <td> 💡 <code> :bulb: </code>   </td>
+        <td>Refatoração</td>
+        <td>♻️ <code>:recycle:</code></td>
     </tr>
     <tr>
-      <td> Responsividade          </td>
-      <td> 📱 <code> :iphone: </code>   </td>
+      <td>Removendo um arquivo</td>
+      <td>🔥 <code>:fire:</code></td>
     </tr>
     <tr>
-      <td> SEO          </td>
-      <td> 🔍️ <code> :mag: </code>   </td>
+      <td>Removendo uma dependência</td>
+      <td>➖ <code>:heavy_minus_sign:</code></td>
     </tr>
     <tr>
-      <td>  Tipagem         </td>
-      <td> 🏷️ <code> :label: </code>   </td>
+      <td>Responsividade</td>
+      <td>📱 <code>:iphone:</code></td>
     </tr>
     <tr>
-      <td>  Tratamento de erros         </td>
-      <td> 🥅 <code> :goal_net: </code>   </td>
+      <td>Revertendo mudanças</td>
+      <td>💥 <code>:boom:</code></td>
     </tr>
     <tr>
-      <td> Animações e transições          </td>
-      <td> 💫 <code> :dizzy: </code>   </td>
+      <td>Segurança</td>
+      <td>🔒️ <code>:lock:</code></td>
     </tr>
     <tr>
-      <td> Removendo um arquivo          </td>
-      <td> 🔥 <code> :fire: </code>   </td>
+      <td>SEO</td>
+      <td>🔍️ <code>:mag:</code></td>
+    </tr>
+    <tr>
+      <td>Tag de versão</td>
+      <td>🔖 <code>:bookmark:</code></td>
+    </tr>
+    <tr>
+      <td>Teste de aprovação</td>
+      <td>✔️ <code>:heavy_check_mark:</code></td>
+    </tr>
+    <tr>
+      <td>Testes</td>
+      <td>🧪 <code>:test_tube:</code></td>
+    </tr>
+    <tr>
+      <td>Texto</td>
+      <td>📝 <code>:pencil:</code></td>
+    </tr>
+    <tr>
+      <td>Tipagem</td>
+      <td>🏷️ <code>:label:</code></td>
+    </tr>
+    <tr>
+      <td>Tratamento de erros</td>
+      <td>🥅 <code>:goal_net:</code></td>
     </tr>
   </tbody>
 </table>
