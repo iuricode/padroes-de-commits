@@ -250,13 +250,13 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":test_tube: feat: Estilizaçao CSS do formulario"</code>
+        <code>git commit -m ":test_tube: test: Criando novo teste"</code>
       </td>
       <td>🧪 test: Criando novo teste</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":test_tube: feat: Estilizaçao CSS do formulario"</code>
+        <code>git commit -m ":bulb: docs: Comentários sobre a função LoremIpsum( )"</code>
       </td>
       <td>💡 docs: Comentários sobre a função LoremIpsum( )</td>
     </tr>
