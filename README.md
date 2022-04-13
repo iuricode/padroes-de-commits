@@ -118,7 +118,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Estilização de interface</td>
       <td>💄 <code>:lipstick:</code></td>
-      <td></td>
+      <td><code>feat</code></td>
     </tr>
     <tr>
       <td>Infraestrutura</td>
