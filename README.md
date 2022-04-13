@@ -118,12 +118,12 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Estilização de interface</td>
       <td>💄 <code>:lipstick:</code></td>
-      <td></td>
+      <td><code>feat</code></td>
     </tr>
     <tr>
       <td>Infraestrutura</td>
       <td>🧱 <code>:bricks:</code></td>
-      <td></td>
+      <td><code>ci</code></td>
     </tr>
     <tr>
       <td>Lista de ideias (tasks)</td>
@@ -173,7 +173,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Revertendo mudanças</td>
       <td>💥 <code>:boom:</code></td>
-      <td></td>
+      <td><code>fix</code></td>
     </tr>
     <tr>
       <td>Segurança</td>
