@@ -6,7 +6,7 @@
   <img src="gitcommit.png">
 </h1>
 
-De acordo com a documentação do **Conventional Commits**, Commits Semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define  um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
+De acordo com a documentação do **Conventional Commits**, Commits Semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
 
 Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada quais alterações foram realizadas no trecho de código que foi commitado.
 
@@ -34,7 +34,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `chore` - Commits do tipo chore indicam **atualizações de tarefas** de build, configurações de administrador, pacotes... como por exemplo adicionar um pacote no gitignore. (Não inclui alterações em código)
 
-- `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (*continuous integration*).
+- `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (_continuous integration_).
 
 ## ☑️ Recomendações
 
@@ -219,6 +219,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 </table>
 
 ## 💻 Exemplos
+
 <table>
   <thead>
     <tr>
@@ -295,5 +296,20 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
   </tbody>
 </table>
+
+<div align="center">
+<br/>
+<br/>
+<br/>
+  <div>
+  <h1>Open Source</h1>
+  <sub>Copyright © 2022 - <a href="https://github.com/iuricode">iuricode</sub></a>
+  </div>
+  <br/>
+  <p> 
+    <a href="https://github.com/iuricode/padroes-de-commits/blob/main/LICENSE.md">LICENÇA</a>
+  </p>
+  💖
+</div>
 
 <br>[🔝 Voltar ao topo](#padrões-de-commits-) <br>
