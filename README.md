@@ -298,18 +298,16 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 </table>
 
 <div align="center">
-<br/>
-<br/>
-<br/>
-  <div>
-  <h1>Open Source</h1>
-  <sub>Copyright © 2022 - <a href="https://github.com/iuricode">iuricode</sub></a>
-  </div>
   <br/>
-  <p> 
-    <a href="https://github.com/iuricode/padroes-de-commits/blob/main/LICENSE.md">LICENÇA</a>
-  </p>
-  💖
+  <br/>
+  <br/>
+    <div>
+      <h1>Open Source</h1>
+      <sub>Copyright © 2022 - <a href="https://github.com/iuricode">iuricode</sub></a>
+    </div>
+    <br/>
+    <p> 
+      <a href="https://github.com/iuricode/padroes-de-commits/blob/main/LICENSE.md">LICENÇA</a>
+    </p>
+    💖
 </div>
-
-<br>[🔝 Voltar ao topo](#padrões-de-commits-) <br>
