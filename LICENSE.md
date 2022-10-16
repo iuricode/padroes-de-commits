@@ -1,3 +1,3 @@
-Copyright © 2021 - [iuricode](https://github.com/iuricode)
+Copyright © 2022 - [iuricode](https://github.com/iuricode)
 
-A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste arquivo, com restrição de publicar como SEU repositório. Porém, sem restrição nos direitos de usar, copiar, modificar e mesclar.
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste arquivo, com restrição de publicar como seu repositório. Porém, sem restrição nos direitos de fazer um fork e modificar o mesmo.
