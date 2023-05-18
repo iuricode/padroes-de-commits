@@ -312,6 +312,12 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
   </tbody>
 </table>
 
+## Traduções
+
+Também disponível noutras línguas
+
+- ![pe](https://images.emojiterra.com/twitter/v14.0/128px/1f1f5-1f1ea.png) **Español** [jaenfigueroa/patrones-de-commits](https://github.com/jaenfigueroa/patrones-de-commits)
+
 <div align="center">
   <br/>
     <div>
