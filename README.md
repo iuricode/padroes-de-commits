@@ -230,6 +230,11 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>🥅 <code>:goal_net:</code></td>
       <td></td>
     </tr>
+   <tr>
+      <td>Conexão com a API</td>
+      <td>🔗 <code>:link:</code></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 
@@ -308,6 +313,12 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
         <code>git commit -m ":bulb: docs: Comentários sobre a função LoremIpsum( )"</code>
       </td>
       <td>💡 docs: Comentários sobre a função LoremIpsum( )</td>
+    </tr>
+   <tr>
+      <td>
+        <code>git commit -m ":link: get: Buscando dados da API"</code>
+      </td>
+      <td>🔗 get: Buscando dados da API</td>
     </tr>
   </tbody>
 </table>
