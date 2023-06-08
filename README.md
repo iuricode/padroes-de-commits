@@ -231,7 +231,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td></td>
     </tr>
    <tr>
-      <td>Conexão com a API</td>
+      <td>Conexão com API</td>
       <td>🔗 <code>:link:</code></td>
       <td></td>
     </tr>
