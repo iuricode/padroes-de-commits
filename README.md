@@ -12,9 +12,9 @@ Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada qu
 
 Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
 
-## 📚 Ebook
+## 📚 Aprenda frontend com uma didática simples
 
-> Este repositório é um projeto gratuito para a comunidade de desenvolvedores. Mas você pode me ajudar comprando o ebook "eFront" se estiver interessado em aprender ou melhorar suas habilidades de desenvolvimento frontend. O ebook é completo e cobre tecnologias mais requisitados do mercado como HTML, CSS, JavaScript, Sass, Bootstrap, React, React Router, TypeScript, styled-components, Tailwind CSS, React Hook Form, Radix UI, Storybook, Cypress, Next.js e muito mais. O valor é R$20,00 e sua compra me ajuda a produzir e fornecer mais conteúdo gratuito para a comunidade. Adquira agora e comece sua jornada no desenvolvimento frontend.
+> Este repositório é um projeto gratuito para a comunidade de desenvolvedores. Mas você pode me ajudar comprando o ebook "eFront" se estiver interessado em aprender ou melhorar suas habilidades de desenvolvimento frontend. O ebook é completo e cobre tecnologias mais requisitados do mercado como HTML, CSS, JavaScript, Sass, Bootstrap, React, React Router, TypeScript, styled-components, Tailwind CSS, React Hook Form, Radix UI, Storybook, Cypress, Next.js e muito mais. O valor é R$15,00 e sua compra me ajuda a produzir e fornecer mais conteúdo gratuito para a comunidade. Adquira agora e comece sua jornada no desenvolvimento frontend.
 
 - eFront - Estudando frontend do zero. [Clique aqui para comprar](https://iuricode.com/efront)
 
