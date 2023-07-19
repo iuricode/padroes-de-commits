@@ -1,24 +1,12 @@
-<h1 align="center">
-📄<br>Padrões de commits 
-</h1>
+# Padrões de commits 📜
 
-<h1 align="center">
-  <img src="gitcommit.png">
-</h1>
-
-De acordo com a documentação do **Conventional Commits**, Commits Semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
+De acordo com a documentação do **[Conventional Commits](https://www.conventionalcommits.org/pt-br)**, commits semânticos são uma convenção simples para ser utilizada nas mensagens de commit. Essa convenção define um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
 
 Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada quais alterações foram realizadas no trecho de código que foi commitado.
 
 Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
 
-## 📚 Aprenda frontend com uma didática simples
-
-> Este repositório é um projeto gratuito para a comunidade de desenvolvedores. Mas você pode me ajudar comprando o ebook "eFront" se estiver interessado em aprender ou melhorar suas habilidades de desenvolvimento frontend. O ebook é completo e cobre tecnologias mais requisitados do mercado como HTML, CSS, JavaScript, Sass, Bootstrap, React, React Router, TypeScript, styled-components, Tailwind CSS, React Hook Form, Radix UI, Storybook, Cypress, Next.js e muito mais. O valor é R$15,00 e sua compra me ajuda a produzir e fornecer mais conteúdo gratuito para a comunidade. Adquira agora e comece sua jornada no desenvolvimento frontend.
-
-- eFront - Estudando frontend do zero. [Clique aqui para comprar](https://iuricode.com/efront)
-
-## 🦄 Tipo e Descrição
+## Tipo e descrição 🦄
 
 O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.
 
@@ -42,30 +30,27 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (_continuous integration_).
 
-## ☑️ Recomendações
+## Recomendações 🎉
 
-- Adicione um título consistente com o título do conteúdo;
-- Recomendamos que na primeira linha deve ter no máximo 4 palavras;
-- Para descrever com detalhes, usar a descrição do commit;
-- Usar um emoji no início da mensagem de commit representando sobre o commit;
-- Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados;
+- Adicione um título consistente com o título do conteúdo.
+- Recomendamos que na primeira linha deve ter no máximo 4 palavras.
+- Para descrever com detalhes, usar a descrição do commit.
+- Usar um emoji no início da mensagem de commit representando sobre o commit.
+- Os links precisam ser adicionados em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados.
 
-## 🍧 Complementos de Commits
+## Complementos de commits 💻
 
-- **Rodapé:** Geralmente uma informação sobre o revisor e numero de card de trello ou jira 
-  Exemplo: Reviewed-by: Elisandro Mello Refs #133
-- **Corpo** : descrições mais precisas do que está contido no commit, apresentando impactos e os motivos pelos quais foram empregadas as alterações no código, como também instruções essenciais para intervenções futuras. 
-  Exemplo: see the issue for details on typos fixed.
-- **Descrições**:  uma descrição sucinta da mudança
-  Exemplo: correct minor typos in code
+- **Rodapé:** informação sobre o revisor e número do card no Trello ou Jira. Exemplo: Reviewed-by: Elisandro Mello Refs #133
+- **Corpo:** descrições mais precisas do que está contido no commit, apresentando impactos e os motivos pelos quais foram empregadas as alterações no código, como também instruções essenciais para intervenções futuras. Exemplo: see the issue for details on typos fixed.
+- **Descrições:** uma descrição sucinta da mudança. Exemplo: correct minor typos in code
 
-## 💈 Padrões de emojis
+## Padrões de emojis 💈
 
 <table>
   <thead>
     <tr>
-      <th>Tipo de commit</th>
-      <th>Emojis</th>
+      <th>Tipo do commit</th>
+      <th>Emoji</th>
       <th>Palavra-chave</th>
     </tr>
   </thead>
@@ -238,7 +223,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 <table>
   <thead>
     <tr>
-      <th>Comando git</th>
+      <th>Comando Git</th>
       <th>Resultado no GitHub</th>
     </tr>
   </thead>
@@ -312,15 +297,10 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
   </tbody>
 </table>
 
-<div align="center">
-  <br/>
-    <div>
-      <h1>Open Source</h1>
-      <sub>Copyright © 2023 - <a href="https://github.com/iuricode">iuricode</sub></a>
-    </div>
-    <br/>
-    <p> 
-      <a href="https://github.com/iuricode/padroes-de-commits/blob/main/LICENSE.md">LICENÇA</a>
-    </p>
-    💖
-</div>
+## Contribuição ✨
+
+Ajude a comunidade tornando este projeto ainda mais incrível. Leia como constribuir clicando **[aqui](https://github.com/iuricode/padroes-de-commits/blob/main/CONTRIBUTING.md)** e a **[licença](https://github.com/iuricode/padroes-de-commits/blob/main/LICENSE.md)**. Estou convencido de que juntos alcançaremos coisas incríveis!
+
+## Aprenda desenvolvimento frontend ❤️
+
+Este repositório é um projeto gratuito para a comunidade de desenvolvedores, mas você pode me ajudar comprando o meu ebook "**[eFront - Estudando frontend do zero](https://iuricode.com/efront)**" se estiver interessado em aprender ou melhorar suas habilidades de desenvolvimento frontend. A sua compra me ajuda a produzir e fornecer mais conteúdo gratuito para a comunidade. Adquira agora e comece sua jornada no desenvolvimento frontend.
