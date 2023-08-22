@@ -32,7 +32,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 ## Recomendações 🎉
 
-- Adicione um título consistente com o título do conteúdo.
+- Adicione um tipo consistente com o título do conteúdo.
 - Recomendamos que na primeira linha deve ter no máximo 4 palavras.
 - Para descrever com detalhes, usar a descrição do commit.
 - Usar um emoji no início da mensagem de commit representando sobre o commit.
