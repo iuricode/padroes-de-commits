@@ -30,6 +30,8 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (_continuous integration_).
 
+- `raw` - Commits to tipo raw indicam mudanças relacionadas a arquivos de configurações, dados, features, parametros.
+  
 ## Recomendações 🎉
 
 - Adicione um tipo consistente com o título do conteúdo.
@@ -215,6 +217,11 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>🥅 <code>:goal_net:</code></td>
       <td></td>
     </tr>
+   <tr>
+      <td>Dados</td>
+      <td>🗃️ <code>:card_file_box:</code></td>
+      <td><code>raw</code></td>
+    </tr>
   </tbody>
 </table>
 
@@ -293,6 +300,12 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
         <code>git commit -m ":bulb: docs: Comentários sobre a função LoremIpsum( )"</code>
       </td>
       <td>💡 docs: Comentários sobre a função LoremIpsum( )</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bulb: raw: RAW Data do ano aaaa"</code>
+      </td>
+      <td>🗃️ raw: RAW Data do ano aaaa</td>
     </tr>
   </tbody>
 </table>
