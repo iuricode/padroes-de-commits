@@ -243,9 +243,9 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":books: docs: Atualizaçao do README"</code>
+        <code>git commit -m ":books: docs: Atualização do README"</code>
       </td>
-      <td>📚 docs: Atualizaçao do README</td>
+      <td>📚 docs: Atualização do README</td>
     </tr>
     <tr>
       <td>
@@ -255,15 +255,15 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":sparkles: feat: Pagina de login"</code>
+        <code>git commit -m ":sparkles: feat: Página de login"</code>
       </td>
-      <td>✨ feat: Pagina de login</td>
+      <td>✨ feat: Página de login</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bricks: ci: Modificaçao no Dockerfile"</code>
+        <code>git commit -m ":bricks: ci: Modificação no Dockerfile"</code>
       </td>
-      <td>🧱 ci: Modificaçao no Dockerfile</td>
+      <td>🧱 ci: Modificação no Dockerfile</td>
     </tr>
     <tr>
       <td>
@@ -285,9 +285,9 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":lipstick: feat: Estilizaçao CSS do formulario"</code>
+        <code>git commit -m ":lipstick: feat: Estilização CSS do formulário"</code>
       </td>
-      <td>💄 feat: Estilizaçao CSS do formulario</td>
+      <td>💄 feat: Estilização CSS do formulário</td>
     </tr>
     <tr>
       <td>
