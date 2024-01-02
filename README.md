@@ -68,6 +68,16 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td><code>test</code></td>
     </tr>
     <tr>
+      <td>Atualizando a versão de um submódulo</td>
+      <td>⬆️ <code>:arrow_up:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Retrocedendo a versão de um submódulo</td>
+      <td>⬇️ <code>:arrow_down:</code></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Adicionando uma dependência</td>
       <td>➕ <code>:heavy_plus_sign:</code></td>
       <td><code>build</code></td>
