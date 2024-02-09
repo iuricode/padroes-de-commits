@@ -313,7 +313,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bulb: raw: RAW Data do ano aaaa"</code>
+        <code>git commit -m ":card_file_box: raw: RAW Data do ano aaaa"</code>
       </td>
       <td>🗃️ raw: RAW Data do ano aaaa</td>
     </tr>
