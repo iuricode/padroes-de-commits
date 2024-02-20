@@ -120,6 +120,12 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>💄 <code>:lipstick:</code></td>
       <td><code>feat</code></td>
     </tr>
+     <tr>
+      <td>Gitignore</td>
+      <td>🙈 <code>:see_no_evil:</code></td>
+      <td><code>chore</code></td>
+    </tr>
+    <tr>
     <tr>
       <td>Infraestrutura</td>
       <td>🧱 <code>:bricks:</code></td>
@@ -251,6 +257,12 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
         <code>git commit -m ":sparkles: feat: Pagina de login"</code>
       </td>
       <td>✨ feat: Pagina de login</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":see_no_evil: chore: Atualização no .gitignore"</code>
+      </td>
+      <td>🙈 chore: Atualização no .gitignore</td>
     </tr>
     <tr>
       <td>
