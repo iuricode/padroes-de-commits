@@ -266,7 +266,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bricks: ci: Modificaçao no Dockerfile"</code>
+        <code>git commit -m ":bricks: ci: Modificação no Dockerfile"</code>
       </td>
       <td>🧱 ci: Modificaçao no Dockerfile</td>
     </tr>
