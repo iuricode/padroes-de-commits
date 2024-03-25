@@ -31,7 +31,11 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 - `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (_continuous integration_).
 
 - `raw` - Commits to tipo raw indicam mudanças relacionadas a arquivos de configurações, dados, features, parametros.
-  
+
+- `cleanup` - Commits do tipo cleanup são utilizados para remover código comentado, trechos desnecessários ou qualquer outra forma de limpeza do código-fonte, visando aprimorar sua legibilidade e manutenibilidade.
+
+- `remove` - Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
+
 ## Recomendações 🎉
 
 - Adicione um tipo consistente com o título do conteúdo.
@@ -168,9 +172,14 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
         <td><code>refactor</code></td>
     </tr>
     <tr>
+      <td>Limpeza de Código</td>
+      <td>🧹 <code>:broom:</code></td>
+      <td><code>cleanup</code></td>
+    </tr>
+    <tr>
       <td>Removendo um arquivo</td>
-      <td>🔥 <code>:fire:</code></td>
-      <td></td>
+      <td>🗑️ <code>:wastebasket:</code></td>
+      <td>remove</td>
     </tr>
     <tr>
       <td>Removendo uma dependência</td>
@@ -227,7 +236,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
       <td>🥅 <code>:goal_net:</code></td>
       <td></td>
     </tr>
-   <tr>
+    <tr>
       <td>Dados</td>
       <td>🗃️ <code>:card_file_box:</code></td>
       <td><code>raw</code></td>
@@ -316,6 +325,18 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
         <code>git commit -m ":card_file_box: raw: RAW Data do ano aaaa"</code>
       </td>
       <td>🗃️ raw: RAW Data do ano aaaa</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":broom: cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário"</code>
+      </td>
+      <td>🧹 cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":wastebasket: remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua"</code>
+      </td>
+      <td>🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua</td>
     </tr>
   </tbody>
 </table>
