@@ -179,7 +179,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
     <tr>
       <td>Removendo um arquivo</td>
       <td>🗑️ <code>:wastebasket:</code></td>
-      <td>remove</td>
+      <td><code>remove</code></td>
     </tr>
     <tr>
       <td>Removendo uma dependência</td>
