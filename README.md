@@ -50,6 +50,17 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 - **Corpo:** descrições mais precisas do que está contido no commit, apresentando impactos e os motivos pelos quais foram empregadas as alterações no código, como também instruções essenciais para intervenções futuras. Exemplo: see the issue for details on typos fixed.
 - **Descrições:** uma descrição sucinta da mudança. Exemplo: correct minor typos in code
 
+## Exemplos 💻
+
+Aqui estão alguns exemplos de como utilizar os commits semânticos:
+
+- `git commit -m ":tada: Commit inicial"`
+- `git commit -m ":books: docs: Atualização do README"`
+- `git commit -m ":bug: fix: Corrige bug na autenticação"`
+- `git commit -m ":sparkles: feat: Adiciona funcionalidade de login"`
+  
+  
+
 ## Padrões de emojis 💈
 
 <table>
