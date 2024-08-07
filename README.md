@@ -30,7 +30,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `ci` - Commits do tipo ci indicam mudanças relacionadas a **integração contínua** (_continuous integration_).
 
-- `raw` - Commits to tipo raw indicam mudanças relacionadas a arquivos de configurações, dados, features, parametros.
+- `raw` - Commits do tipo raw indicam mudanças relacionadas a arquivos de configurações, dados, features, parâmetros.
 
 - `cleanup` - Commits do tipo cleanup são utilizados para remover código comentado, trechos desnecessários ou qualquer outra forma de limpeza do código-fonte, visando aprimorar sua legibilidade e manutenibilidade.
 
