@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script shell para facilitar a criação de commits semânticos
+# Script shell para facilitar a criacao de commits semanticos
 
 echo "Selecione o tipo de commit:"
 echo "1. feat: Novo recurso ✨"
