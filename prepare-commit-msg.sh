@@ -15,7 +15,7 @@ API_RESPONSE=$(
     -d "$GIT_DIFF"
 )
 
-COMMIT=$(echo $API_RESPONSE | grep -o '"respostaGPT4oMini": *"[^"]*"' | awk -F'"' '{print $4}')
+COMMIT=$(echo $API_RESPONSE | grep -oP '(?<="respostaGPT4oMini":")[^"]*')
 
 echo "$COMMIT" > temp_msg
 cat "$COMMIT_MSG_FILE" >> temp_msg # dê um " " na mensagem de commit
