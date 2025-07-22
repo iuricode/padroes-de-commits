@@ -6,7 +6,7 @@ COMMIT_MSG_FILE=$1
 # Read the commit message from the file.
 COMMIT_MSG=$(cat "$COMMIT_MSG_FILE")
 
-CONVENTIONAL_COMMIT_REGEX='^(feat|fix|docs|style|refactor|test|chore|build|ci|perf|revert)(\([a-zA-Z0-9_.-]+\))?(!)?:\s.*$'
+CONVENTIONAL_COMMIT_REGEX='^([[:graph:][:space:]]* )?(build|ci|docs|feat|fix|perf|refactor|style|test|chore|revert|wip|release|hotfix|rollback|raw|cleanup|remove|init)(\([^\)]+\))?(!)?:\s.+$'
 
 # Check if the commit message matches the regex
 if ! [[ $COMMIT_MSG =~ $CONVENTIONAL_COMMIT_REGEX ]]; then
