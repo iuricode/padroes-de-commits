@@ -308,11 +308,11 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
       <td>🥅 <code>:goal_net:</code></td>
       <td></td>
     </tr>
-    <td>
+    <tr>
       <td>Dados</td>
       <td>🗃️ <code>:card_file_box:</code></td>
       <td><code>raw</code></td>
-    </td>
+    </tr>
     <tr>
       <td>Segurança</td>
       <td>🔒 <code>:lock:</code></td>
