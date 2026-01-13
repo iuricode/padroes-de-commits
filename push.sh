@@ -16,6 +16,7 @@ echo "10. ci: Integração contínua 🧱"
 echo "11. raw: Dados RAW 🗃️"
 echo "12. cleanup: Limpeza de código 🧹"
 echo "13. remove: Remoção de arquivos 🗑️"
+echo "14. security: Segurança 🔒"
 echo ""
 
 
@@ -36,6 +37,7 @@ case $commit_type in
   11) type="raw"; emoji="🗃️";;
   12) type="cleanup"; emoji="🧹";;
   13) type="remove"; emoji="🗑️";;
+  14) type="security"; emoji="🔒";;
   *) echo "Tipo de commit inválido"; exit 1;;
 esac
 

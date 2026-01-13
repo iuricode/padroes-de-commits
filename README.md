@@ -36,6 +36,8 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `remove` - Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
 
+- `security` - Commits do tipo security indicam alterações relacionadas à segurança da aplicação, como correção de vulnerabilidades, falhas de autenticação ou autorização, exposição indevida de dados, ajustes de permissões, hardening de configurações, atualizações críticas motivadas por CVEs e qualquer modificação que tenha como objetivo proteger o sistema contra riscos, ataques ou acessos não autorizados.
+
 ## 🛠️ Como instalar o arquivo `commit-msg.sh` para validar mensagens de commits com conventional commits
 
 ### Passo 1: Certifique-se de que o Git está instalado 🌟
@@ -307,9 +309,9 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
       <td></td>
     </tr>
     <tr>
-      <td>Dados</td>
-      <td>🗃️ <code>:card_file_box:</code></td>
-      <td><code>raw</code></td>
+      <td>Segurança</td>
+      <td>🔒 <code>:lock:</code></td>
+      <td><code>security</code></td>
     </tr>
   </tbody>
 </table>
@@ -404,9 +406,9 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":wastebasket: remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua"</code>
+        <code>git commit -m ":lock: security: corrigir falha de acesso não autenticado no endpoint de usuários"</code>
       </td>
-      <td>🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua</td>
+      <td>🔒 security: corrigir falha de acesso não autenticado no endpoint de usuários</td>
     </tr>
   </tbody>
 </table>
