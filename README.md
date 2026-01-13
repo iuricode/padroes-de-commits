@@ -411,6 +411,12 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
     </tr>
     <tr>
       <td>
+        <code>git commit -m ":wastebasket: remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua"<code>
+      </td>
+      <td>🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua</td>
+    </tr>
+    <tr>
+      <td>
         <code>git commit -m ":lock: security: corrigir falha de acesso não autenticado no endpoint de usuários"</code>
       </td>
       <td>🔒 security: corrigir falha de acesso não autenticado no endpoint de usuários</td>
