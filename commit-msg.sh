@@ -27,6 +27,7 @@ if ! [[ $COMMIT_MSG =~ $CONVENTIONAL_COMMIT_REGEX ]]; then
     echo "  ci:       Alterações nos arquivos de configuração de CI ou scripts."
     echo "  perf:     Melhorias de desempenho."
     echo "  revert:   Reverter um commit anterior."
+    echo "  security: Melhorias/Auterações em pontos de segurança da aplicação."
     echo
     echo "Exemplos:"
     echo "  feat(auth): adicionar funcionalidade de login"
