@@ -106,6 +106,24 @@ Se a mensagem de commit seguir o padrão **Conventional Commits**, o commit ser�
 
 Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e personalize as regras de validação para atender às necessidades do seu projeto.
 
+## 🔌 Uso com o framework `pre-commit`
+
+Com o arquivo `.pre-commit-hooks.yaml`, este repositório pode ser usado diretamente no `.pre-commit-config.yaml`:
+
+```yaml
+repos:
+  - repo: https://github.com/iuricode/padroes-de-commits
+    rev: v1.0.0
+    hooks:
+      - id: padroes-de-commits
+```
+
+Depois, instale os hooks:
+
+```bash
+pre-commit install --hook-type commit-msg
+```
+
 ## Recomendações 🎉
 
 - Adicione um tipo consistente com o título do conteúdo.
