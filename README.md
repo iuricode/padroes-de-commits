@@ -36,6 +36,8 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `remove` - Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
 
+- `wip` - Commits do tipo wip (Work in Progress) indicam um registro temporário para salvar o estado atual do código quando a tarefa não está completada.
+
 ## 🛠️ Como instalar o arquivo `commit-msg.sh` para validar mensagens de commits com conventional commits
 
 ### Passo 1: Certifique-se de que o Git está instalado 🌟
@@ -199,7 +201,7 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
     <tr>
       <td>Em progresso</td>
       <td>🚧 <code>:construction:</code></td>
-      <td></td>
+      <td><code>wip</code></td>
     </tr>
     <tr>
       <td>Estilização de interface</td>
@@ -407,6 +409,12 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
         <code>git commit -m ":wastebasket: remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua"</code>
       </td>
       <td>🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":construction: wip: implementando tela de login"</code>
+      </td>
+      <td>🚧️ wip: Implementando tela de login</td>
     </tr>
   </tbody>
 </table>
