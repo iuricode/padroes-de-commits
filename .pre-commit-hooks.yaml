@@ -1,0 +1,5 @@
+- id: padroes-de-commits
+  name: Padroniza mensagens de commit
+  entry: commit-msg.sh
+  language: script
+  stages: [commit-msg]

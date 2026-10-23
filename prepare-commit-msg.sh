@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Implemente o serviço em https://github.com/tiagolofi/ai-commit-hooks-api
 # Mais detalhes em: https://github.com/tiagolofi/ai-commit-hooks

@@ -6,15 +6,42 @@ Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada qu
 
 Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
 
+## Índice 🧭
+
+- [Formato da mensagem](#formato-da-mensagem-)
+- [Tipo e descrição](#tipo-e-descrição-)
+- [Validando commits com o hook `commit-msg`](#-validando-commits-com-o-hook-commit-msg)
+- [Recomendações](#recomendações-)
+- [Complementos de commits](#complementos-de-commits-)
+- [Padrões de emojis](#padrões-de-emojis-)
+- [Exemplos](#-exemplos)
+- [Principais comandos do Git](#principais-comandos-do-git-)
+- [Glossário](#glossário-)
+- [Contribuição](#contribuição-)
+
+## Formato da mensagem 🧩
+
+```text
+:emoji: tipo(escopo opcional): descrição
+```
+
+- `:emoji:` - Representa o commit visualmente (veja a [tabela de emojis](#padrões-de-emojis-)). É recomendado, mas o hook aceita a mensagem sem ele. Pode ser o código (`:sparkles:`) ou o próprio emoji (✨).
+- `tipo` - Um dos [tipos](#tipo-e-descrição-) abaixo, como `feat` ou `fix`.
+- `(escopo)` - Opcional. Indica a área afetada, como em `feat(auth): ...`.
+- `!` - Opcional. Indica uma mudança que quebra a compatibilidade (_breaking change_), como em `feat(api)!: ...`.
+- `descrição` - Resumo curto do que foi feito.
+
+Exemplo: `:sparkles: feat(auth): adicionar página de login`
+
 ## Tipo e descrição 🦄
 
 O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.
 
-- `feat`- Commits do tipo feat indicam que seu trecho de código está incluindo um **novo recurso** (se relaciona com o MINOR do versionamento semântico).
+- `feat` - Commits do tipo feat indicam que seu trecho de código está incluindo um **novo recurso** (se relaciona com o MINOR do versionamento semântico).
 
 - `fix` - Commits do tipo fix indicam que seu trecho de código commitado está **solucionando um problema** (bug fix), (se relaciona com o PATCH do versionamento semântico).
 
-- `docs` - Commits do tipo docs indicam que houveram **mudanças na documentação**, como por exemplo no Readme do seu repositório. (Não inclui alterações em código).
+- `docs` - Commits do tipo docs indicam que houve **mudanças na documentação**, como por exemplo no Readme do seu repositório. (Não inclui alterações em código).
 
 - `test` - Commits do tipo test são utilizados quando são realizadas **alterações em testes**, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em código)
 
@@ -22,7 +49,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `perf` - Commits do tipo perf servem para identificar quaisquer alterações de código que estejam relacionadas a **performance**.
 
-- `style` - Commits do tipo style indicam que houveram alterações referentes a **formatações de código**, semicolons, trailing spaces, lint... (Não inclui alterações em código).
+- `style` - Commits do tipo style indicam que houve alterações referentes a **formatações de código**, semicolons, trailing spaces, lint... (Não inclui alterações em código).
 
 - `refactor` - Commits do tipo refactor referem-se a mudanças devido a **refatorações que não alterem sua funcionalidade**, como por exemplo, uma alteração no formato como é processada determinada parte da tela, mas que manteve a mesma funcionalidade, ou melhorias de performance devido a um code review.
 
@@ -36,82 +63,99 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `remove` - Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
 
-## 🛠️ Como instalar o arquivo `commit-msg.sh` para validar mensagens de commits com conventional commits
+- `init` - Commits do tipo init indicam o **commit inicial** do projeto.
 
-### Passo 1: Certifique-se de que o Git está instalado 🌟
+- `revert` - Commits do tipo revert indicam que um **commit anterior foi revertido**.
 
-Antes de tudo, verifique se o Git está instalado na sua máquina. Abra o terminal e execute:
+- `security` - Commits do tipo security indicam alterações relacionadas à **segurança da aplicação**, como correção de vulnerabilidades, falhas de autenticação ou autorização, exposição indevida de dados e hardening de configurações.
 
-```bash
-git --version
-```
+## 🔧 Validando commits com o hook `commit-msg`
 
-Se você receber uma versão do Git como resposta, está tudo certo! Caso contrário, baixe e instale o Git aqui: [Git Downloads](https://git-scm.com/downloads).
+O hook [`commit-msg.sh`](commit-msg.sh) roda a cada `git commit` e bloqueia mensagens que não seguem o [formato](#formato-da-mensagem-). Mensagens geradas pelo próprio Git (`Merge ...`, `Revert "..."`, `fixup! ...`) passam sem validação.
 
-### Passo 2: Localize o arquivo `commit-msg.sh` 📂
+### Instalação automática ⚡
 
-O arquivo `commit-msg.sh` deve estar disponível no repositório do seu projeto ou em um diretório específico. Certifique-se de que ele está acessível. Se não estiver, faça o download ou clone o repositório onde ele está localizado.
+**Requisitos:** [Git](https://git-scm.com/downloads) instalado e um terminal com Bash. No Windows, use o **Git Bash**, que já vem com o Git.
 
-Por exemplo:
+1. Baixe este repositório:
 
 ```bash
-git clone https://github.com/seu-repositorio/projeto.git
-cd projeto
+git clone https://github.com/iuricode/padroes-de-commits.git
 ```
 
-### Passo 3: Crie o diretório `.git/hooks` (se ainda não existir) 📁
-
-Os hooks do Git ficam no diretório `.git/hooks`. Verifique se ele existe no seu projeto:
+2. Instale o hook no seu projeto, informando o caminho dele (sem informar, o script instala na pasta atual):
 
 ```bash
-ls -la .git/hooks
+./padroes-de-commits/install.sh caminho/do/seu-projeto
 ```
 
-Se o diretório não existir, crie-o:
+O script copia o `commit-msg.sh` para a pasta de hooks do projeto (respeitando o `core.hooksPath`, se existir) e dá a permissão de execução. Se já existir um hook `commit-msg` diferente, ele é salvo como `commit-msg.bak`.
+
+3. Teste o hook. Este commit deve ser bloqueado:
 
 ```bash
-mkdir -p .git/hooks
+git commit --allow-empty -m "mensagem fora do padrão"
 ```
 
-### Passo 4: Copie o arquivo `commit-msg.sh` para o diretório `.git/hooks` 📋
+Já mensagens como `:sparkles: feat: adicionar funcionalidade xyz` ou `fix: corrigir bug` são aceitas.
 
-Copie o arquivo `commit-msg.sh` para o diretório `.git/hooks` e renomeie-o para `commit-msg` (sem extensão):
+### Instalação manual 📋
+
+Copie o arquivo para a pasta de hooks do seu projeto, renomeando-o para `commit-msg` (sem extensão), e dê a permissão de execução:
 
 ```bash
 cp caminho/para/commit-msg.sh .git/hooks/commit-msg
-```
-
-> **Nota:** Substitua `caminho/para/commit-msg.sh` pelo caminho real do arquivo.
-
-### Passo 5: Dê permissão de execução ao script ✅
-
-Para que o Git possa executar o script, você precisa dar permissão de execução:
-
-```bash
 chmod +x .git/hooks/commit-msg
 ```
 
-### Passo 6: Teste o hook de commit 💻
+> **Nota:** Substitua `caminho/para/commit-msg.sh` pelo caminho real do arquivo. Se a pasta `.git/hooks` não existir, crie-a com `mkdir -p .git/hooks`.
 
-Agora, tente fazer um commit no seu projeto. Por exemplo:
+### Para todos os seus projetos 🌍
+
+Para aplicar o hook em todos os repositórios da sua máquina, use uma pasta de hooks global:
 
 ```bash
-git add .
-git commit -m "feat: adicionar funcionalidade xyz"
+mkdir -p ~/.git-hooks
+cp commit-msg.sh ~/.git-hooks/commit-msg
+chmod +x ~/.git-hooks/commit-msg
+git config --global core.hooksPath ~/.git-hooks
 ```
 
-Se a mensagem de commit seguir o padrão **Conventional Commits**, o commit será aceito. Caso contrário, o hook irá bloquear o commit e exibir uma mensagem de erro.
+> **Atenção:** com o `core.hooksPath` global, o Git passa a ignorar os hooks da pasta `.git/hooks` de cada repositório.
 
-### Passo 7: Personalize o script (opcional) 🎨
+### Com o framework `pre-commit` 🔌
 
-Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e personalize as regras de validação para atender às necessidades do seu projeto.
+Se o seu projeto usa o [pre-commit](https://pre-commit.com), este repositório já traz o arquivo `.pre-commit-hooks.yaml`. Adicione o hook ao `.pre-commit-config.yaml` do seu projeto:
+
+```yaml
+repos:
+  - repo: https://github.com/iuricode/padroes-de-commits
+    rev: v1.0.0
+    hooks:
+      - id: padroes-de-commits
+```
+
+Depois, instale o hook do estágio `commit-msg`:
+
+```bash
+pre-commit install --hook-type commit-msg
+```
+
+### Personalize o script (opcional) 🎨
+
+Se necessário, abra o arquivo `commit-msg` instalado em um editor de texto e altere as variáveis `TYPES` (tipos aceitos) e `CONVENTIONAL_COMMIT_REGEX` (formato da mensagem) para atender às necessidades do seu projeto.
+
+### Outros scripts 🧰
+
+- [`push.sh`](push.sh) - Assistente interativo: você escolhe o tipo, digita a mensagem e ele cria o commit (`git commit -a`, dos arquivos já rastreados) no formato `:emoji: tipo: mensagem`.
+- [`prepare-commit-msg.sh`](prepare-commit-msg.sh) - Experimental: sugere a mensagem de commit com IA a partir do `git diff --staged`, usando o serviço [ai-commit-hooks](https://github.com/tiagolofi/ai-commit-hooks), que precisa estar rodando localmente.
 
 ## Recomendações 🎉
 
 - Adicione um tipo consistente com o título do conteúdo.
-- Recomendamos que na primeira linha deve ter no máximo 4 palavras.
+- Recomendamos que a primeira linha tenha no máximo 4 palavras.
 - Para descrever com detalhes, usar a descrição do commit.
-- Usar um emoji no início da mensagem de commit representando sobre o commit.
+- Usar um emoji no início da mensagem de commit representando o commit.
 - Os links precisam ser adicionados em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados.
 
 ## Complementos de commits 💻
@@ -167,6 +211,11 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
       <td></td>
     </tr>
     <tr>
+      <td>Arquivo .gitignore</td>
+      <td>🙈 <code>:see_no_evil:</code></td>
+      <td><code>chore</code></td>
+    </tr>
+    <tr>
       <td>Bugfix</td>
       <td>🐛 <code>:bug:</code></td>
       <td><code>fix</code></td>
@@ -215,6 +264,11 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
       <td>Lista de ideias (tasks)</td>
       <td>🔜 <code> :soon: </code></td>
       <td></td>
+    </tr>
+    <tr>
+      <td>Mocks</td>
+      <td>🤡 <code>:clown_face:</code></td>
+      <td><code>test</code></td>
     </tr>
     <tr>
       <td>Mover/Renomear</td>
@@ -269,7 +323,7 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
     <tr>
       <td>Segurança</td>
       <td>🔒️ <code>:lock:</code></td>
-      <td></td>
+      <td><code>security</code></td>
     </tr>
     <tr>
       <td>SEO</td>
@@ -326,9 +380,9 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
  <tbody>
     <tr>
       <td>
-        <code>git commit -m ":tada: Commit inicial"</code>
+        <code>git commit -m ":tada: init: Commit inicial"</code>
       </td>
-      <td>🎉 Commit inicial</td>
+      <td>🎉 init: Commit inicial</td>
     </tr>
     <tr>
       <td>
@@ -408,6 +462,12 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
       </td>
       <td>🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua</td>
     </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":lock: security: corrigir falha de acesso não autenticado no endpoint de usuários"</code>
+      </td>
+      <td>🔒 security: corrigir falha de acesso não autenticado no endpoint de usuários</td>
+    </tr>
   </tbody>
 </table>
 
@@ -458,11 +518,3 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
 # Contribuição ✨
 
 Ajude a comunidade tornando este projeto ainda mais incrível. Leia como contribuir clicando **[aqui](https://github.com/iuricode/padroes-de-commits/blob/main/CONTRIBUTING.md)** e a **[licença](https://github.com/iuricode/padroes-de-commits/blob/main/LICENSE.md)**. Estou convencido de que juntos alcançaremos coisas incríveis!
-
-## Disponível para freelas - #OpenToWork 🚀
-
-Atualmente estou aberto para oportunidades como Desenvolvedor Frontend e UI/UX Designer. Se você precisa de alguém para transformar ideias em interfaces bonitas, responsivas e funcionais, podemos trabalhar juntos!
-
-📬 Entre em contato:
-📧 iuricold99@gmail.com
-💼 [Linkedin](https://www.linkedin.com/in/iuricode/)
